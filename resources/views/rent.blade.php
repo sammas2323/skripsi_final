@@ -33,7 +33,7 @@
         <div class="text-gray-700 space-y-1">
           <p><strong>Kamar Tidur:</strong> {{ $rent->detail->bedrooms }}</p>
           <p><strong>Kamar Mandi:</strong> {{ $rent->detail->bathrooms }}</p>
-          <p><strong>Luas Bangunan:</strong> {{ $rent->detail->building_size }} m²</p>
+          <p><strong>Luas Bangunan:</strong> {{ $rent->detail->building_size }} m</p>
           <p><strong>Listrik:</strong> {{ $rent->detail->electricity }}</p>
           <p><strong>Air:</strong> {{ $rent->detail->water }}</p>
         </div>
@@ -42,7 +42,7 @@
         <div>
           <h2 class="text-lg font-semibold mt-4">Deskripsi</h2>
           <p class="text-gray-700 mt-1">
-            Kontrakan nyaman cocok untuk keluarga kecil, lokasi strategis dekat dengan halte dan pasar. Lingkungan aman dan tenang.
+            Kontrakan nyaman cocok untuk keluarga kecil, lokasi strategis dekat dengan sekolah dan pasar. Lingkungan aman dan tenang.
           </p>
         </div>
 

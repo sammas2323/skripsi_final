@@ -4,7 +4,7 @@
     </x-slot>
 
     <div class="p-6 bg-white rounded-xl shadow-md mt-4 space-y-4">
-        <img src="{{ asset('images/kontrakan.jpg') }}" alt="Foto Kontrakan Tony" class="rounded-lg w-full h-64 object-cover shadow-md">
+        <img src="{{ asset('img/kontrakann.jpg') }}" alt="Foto Kontrakan Tony" class="rounded-lg w-full h-64 object-cover shadow-md">
 
         <h3 class="text-xl font-semibold text-gray-700">Selamat Datang di Kontrakan Tony!</h3>
 

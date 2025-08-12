@@ -4,11 +4,7 @@
         <div class="flex items-center">
           <div class="shrink-0">
             <a href="/" class="flex items-center space-x-2">
-             <svg class="size-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M2.25 12l8.25-7.5 8.25 7.5M4.5 10.5V21h15v-10.5M9.75 21V12h4.5v9" />
-              </svg>
+              <img src="{{ asset('img/logo.png') }}" alt="Logo Kontrakan Tony" class="h-10 w-auto">
               <span class="text-white font-semibold text-lg">Kontrakan Tony</span>
             </a>
           </div>

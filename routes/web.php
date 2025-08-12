@@ -142,4 +142,13 @@ Route::middleware('auth')->group(function () {
 
 });
 
+Route::get('/privacy-policy', function () {
+    return view('terms.privacy');
+});
+
+Route::get('/terms-of-service', function () {
+    return view('terms.terms');
+});
+
+
 

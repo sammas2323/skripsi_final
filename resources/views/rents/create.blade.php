@@ -48,8 +48,8 @@
           </div>
 
           <div>
-            <label class="block text-gray-700 font-medium mb-1">📐 Luas Bangunan (m²)</label>
-            <input type="number" name="building_size" class="w-full border border-gray-300 rounded px-3 py-2" value="{{ old('building_size') }}">
+            <label class="block text-gray-700 font-medium mb-1">📐 Luas Bangunan</label>
+            <input type="text" name="building_size" class="w-full border border-gray-300 rounded px-3 py-2" value="{{ old('building_size') }}">
           </div>
 
           <div>

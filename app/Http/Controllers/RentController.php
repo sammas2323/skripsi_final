@@ -34,7 +34,7 @@ class RentController extends Controller
             'images.*' => 'nullable|image|mimes:jpg,jpeg,png|max:2048',
             'bedrooms' => 'required|integer',
             'bathrooms' => 'required|integer',
-            'building_size' => 'required|integer',
+            'building_size' => 'required|string',
             'electricity' => 'required|string',
             'water' => 'required|string',
         ]);

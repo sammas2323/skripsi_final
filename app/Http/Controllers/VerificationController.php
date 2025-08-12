@@ -39,7 +39,7 @@ class VerificationController extends Controller
         if($request->type == 'register'){
             $user = User::find($request->user()->id);
         }else{
-            //reset pw
+            
         }
         
         if (!$user) return back()->with('failed', 'User not found.');
@@ -52,6 +52,6 @@ class VerificationController extends Controller
         if($request->type == 'register'){
             return redirect('/verify/'. $verify->unique_id);
         }
-        //return redirect(/reset-password)
+        
     }
 }
